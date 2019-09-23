@@ -10,7 +10,7 @@ chmod +x tcp.sh
 
 说明：
 1. 先在[1 - 3]切换内核（第一次显示为bbr内核也要切换一遍），重启
-出现这个https://s1.ax1x.com/2018/12/24/F6xwqI.png
+出现这个https://s1.ax1x.com/2018/12/24/F6xwqI.png  
 选no
 
 2. 重启后不用再下载脚本，直接 ./tcp.sh ，在[4 - 8]中选你要开的加速  
