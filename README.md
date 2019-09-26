@@ -5,6 +5,12 @@ chmod +x tcp.sh
 ./tcp.sh
 ```
 
+Oracle VPS安装前：
+CentOS7 换内核：
+切换成 root重新生成 grub2.cfg， 命令如下：
+grub2-mkconfig -o /boot/grub2/grub.cfg
+跑你要跑的 bbr.sh
+
 安装命令
   wget "https://github.com/reysc/Linux-NetSpeed/raw/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
 
